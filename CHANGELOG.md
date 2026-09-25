@@ -8,6 +8,8 @@ projekt pa sledi [semantičnemu verzioniranju](https://semver.org/lang/sl/)
 
 ## [Unreleased]
 
+## [0.2.0] - 2026-09-25
+
 ### Added
 - Slike naslovnice in zadnje strani se pred shranjevanjem samodejno pomanjšajo
   (največ 1400 px na daljši stranici) in stisnejo kot JPEG, da telefonske
@@ -32,5 +34,6 @@ projekt pa sledi [semantičnemu verzioniranju](https://semver.org/lang/sl/)
   trdo kodiranega besedila.
 - Light/dark način, z zaznavo sistemske nastavitve in ročnim preklopom.
 
-[Unreleased]: https://github.com/<tvoj-username>/comicvault/compare/v0.1.0...HEAD
+[Unreleased]: https://github.com/<tvoj-username>/comicvault/compare/v0.2.0...HEAD
+[0.2.0]: https://github.com/<tvoj-username>/comicvault/compare/v0.1.0...v0.2.0
 [0.1.0]: https://github.com/<tvoj-username>/comicvault/releases/tag/v0.1.0

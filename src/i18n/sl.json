@@ -1,0 +1,111 @@
+{
+  "app": {
+    "title": "ComicVault",
+    "tagline": "Tvoja zbirka stripov",
+    "version": "Različica {version}"
+  },
+  "nav": {
+    "list": "Zbirka",
+    "addComic": "Dodaj strip"
+  },
+  "toolbar": {
+    "newFile": "Nova datoteka",
+    "openFile": "Odpri datoteko",
+    "saveFile": "Shrani",
+    "noFileOpen": "Ni odprte datoteke",
+    "exportJson": "Izvozi JSON",
+    "exportCsv": "Izvozi CSV",
+    "exportPdfChecklist": "PDF – seznam",
+    "exportPdfCatalog": "PDF – katalog",
+    "export": "Izvoz",
+    "search": "Išči po naslovu, seriji, avtorju ...",
+    "fileAccessUnsupported": "Ta brskalnik ne podpira shranjevanja v datoteko na disku – podatki se hranijo lokalno v brskalniku (IndexedDB). Za prenos uporabi JSON izvoz."
+  },
+  "fields": {
+    "title": "Naslov",
+    "series": "Serija",
+    "issueNumber": "Številka",
+    "publisher": "Založnik",
+    "releaseDate": "Datum izida",
+    "writer": "Scenarist",
+    "artist": "Risar",
+    "variantCover": "Variant naslovnice",
+    "language": "Jezik izdaje",
+    "isbnBarcode": "ISBN / črtna koda",
+    "condition": "Stanje",
+    "purchasePrice": "Nabavna cena",
+    "estimatedValue": "Ocenjena vrednost",
+    "purchaseDate": "Datum nakupa",
+    "purchaseSource": "Vir nakupa",
+    "location": "Lokacija shranjevanja",
+    "isRead": "Prebrano",
+    "isFavorite": "Priljubljeno",
+    "notes": "Opombe",
+    "coverImage": "Naslovnica",
+    "backImage": "Zadnja stran"
+  },
+  "groups": {
+    "main": "Osnovni podatki",
+    "credits": "Zasluge in izdaja",
+    "ownership": "Last in stanje",
+    "flags": "Dodatno"
+  },
+  "conditions": {
+    "mint": "Mint",
+    "nearMint": "Near Mint",
+    "veryFine": "Very Fine",
+    "fine": "Fine",
+    "veryGood": "Very Good",
+    "good": "Good",
+    "fair": "Fair",
+    "poor": "Poor"
+  },
+  "form": {
+    "addTitle": "Dodaj strip",
+    "editTitle": "Uredi strip",
+    "save": "Shrani",
+    "cancel": "Prekliči",
+    "chooseImage": "Izberi sliko",
+    "removeImage": "Odstrani sliko",
+    "requiredField": "To polje je obvezno",
+    "selectPlaceholder": "– ni izbrano –"
+  },
+  "list": {
+    "empty": "Zbirka je prazna. Dodaj svoj prvi strip.",
+    "noResults": "Ni zadetkov za tvoje iskanje.",
+    "count": "{count} stripov",
+    "sortBy": "Razvrsti po",
+    "sortSeries": "Seriji",
+    "sortTitle": "Naslovu",
+    "sortValue": "Vrednosti",
+    "sortDate": "Datumu nakupa"
+  },
+  "detail": {
+    "edit": "Uredi",
+    "delete": "Izbriši",
+    "back": "Nazaj na seznam",
+    "confirmDeleteTitle": "Izbriši strip?",
+    "confirmDeleteBody": "Tega dejanja ni mogoče razveljaviti.",
+    "confirmDeleteYes": "Izbriši",
+    "confirmDeleteNo": "Prekliči"
+  },
+  "theme": {
+    "light": "Svetli način",
+    "dark": "Temni način",
+    "toggle": "Preklopi temo"
+  },
+  "language": {
+    "toggle": "Jezik"
+  },
+  "messages": {
+    "fileOpened": "Datoteka \"{name}\" je odprta.",
+    "fileSaved": "Shranjeno.",
+    "saveError": "Shranjevanje ni uspelo.",
+    "openError": "Odpiranje datoteke ni uspelo."
+  },
+  "pdf": {
+    "checklistTitle": "Seznam stripov",
+    "catalogTitle": "Katalog zbirke",
+    "generatedOn": "Ustvarjeno: {date}"
+  }
+}

@@ -1,0 +1,111 @@
+{
+  "app": {
+    "title": "ComicVault",
+    "tagline": "Your comic collection",
+    "version": "Version {version}"
+  },
+  "nav": {
+    "list": "Collection",
+    "addComic": "Add comic"
+  },
+  "toolbar": {
+    "newFile": "New file",
+    "openFile": "Open file",
+    "saveFile": "Save",
+    "noFileOpen": "No file open",
+    "exportJson": "Export JSON",
+    "exportCsv": "Export CSV",
+    "exportPdfChecklist": "PDF – checklist",
+    "exportPdfCatalog": "PDF – catalog",
+    "export": "Export",
+    "search": "Search by title, series, author ...",
+    "fileAccessUnsupported": "This browser doesn't support saving to a file on disk — data is kept locally in the browser (IndexedDB). Use the JSON export to transfer it."
+  },
+  "fields": {
+    "title": "Title",
+    "series": "Series",
+    "issueNumber": "Issue number",
+    "publisher": "Publisher",
+    "releaseDate": "Release date",
+    "writer": "Writer",
+    "artist": "Artist",
+    "variantCover": "Variant cover",
+    "language": "Edition language",
+    "isbnBarcode": "ISBN / barcode",
+    "condition": "Condition",
+    "purchasePrice": "Purchase price",
+    "estimatedValue": "Estimated value",
+    "purchaseDate": "Purchase date",
+    "purchaseSource": "Purchase source",
+    "location": "Storage location",
+    "isRead": "Read",
+    "isFavorite": "Favorite",
+    "notes": "Notes",
+    "coverImage": "Cover",
+    "backImage": "Back cover"
+  },
+  "groups": {
+    "main": "Basic info",
+    "credits": "Credits and edition",
+    "ownership": "Ownership and condition",
+    "flags": "Additional"
+  },
+  "conditions": {
+    "mint": "Mint",
+    "nearMint": "Near Mint",
+    "veryFine": "Very Fine",
+    "fine": "Fine",
+    "veryGood": "Very Good",
+    "good": "Good",
+    "fair": "Fair",
+    "poor": "Poor"
+  },
+  "form": {
+    "addTitle": "Add comic",
+    "editTitle": "Edit comic",
+    "save": "Save",
+    "cancel": "Cancel",
+    "chooseImage": "Choose image",
+    "removeImage": "Remove image",
+    "requiredField": "This field is required",
+    "selectPlaceholder": "– not selected –"
+  },
+  "list": {
+    "empty": "Your collection is empty. Add your first comic.",
+    "noResults": "No matches for your search.",
+    "count": "{count} comics",
+    "sortBy": "Sort by",
+    "sortSeries": "Series",
+    "sortTitle": "Title",
+    "sortValue": "Value",
+    "sortDate": "Purchase date"
+  },
+  "detail": {
+    "edit": "Edit",
+    "delete": "Delete",
+    "back": "Back to list",
+    "confirmDeleteTitle": "Delete this comic?",
+    "confirmDeleteBody": "This action cannot be undone.",
+    "confirmDeleteYes": "Delete",
+    "confirmDeleteNo": "Cancel"
+  },
+  "theme": {
+    "light": "Light mode",
+    "dark": "Dark mode",
+    "toggle": "Toggle theme"
+  },
+  "language": {
+    "toggle": "Language"
+  },
+  "messages": {
+    "fileOpened": "File \"{name}\" opened.",
+    "fileSaved": "Saved.",
+    "saveError": "Saving failed.",
+    "openError": "Opening the file failed."
+  },
+  "pdf": {
+    "checklistTitle": "Comic checklist",
+    "catalogTitle": "Collection catalog",
+    "generatedOn": "Generated: {date}"
+  }
+}
